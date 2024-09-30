@@ -7,6 +7,9 @@
 }
 
 body {
+    background-color: var(--bg-color);
+
+body {
     font: var(--font);
     color: var(--bg-color);
 }
