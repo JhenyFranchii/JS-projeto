@@ -1,15 +1,17 @@
+ @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
-:root {
-    --bg-color: #185ec7;
-    --primary-color: #000000;
-    --secondary-color: #ffffff;
-    --font: "Edu AU VIC WA NT Guides", cursive;
+:root { 
+    --primeira-cor:rgba(189, 281, 245, 0.533);
+    --segunda-cor: rgb(47, 56, 85);
+
 }
 
 body {
-    background-color: var(--bg-color);
+    background-color: var(--primeira-cor);
+    font-family: 'Playwrite CU';
+}
 
-body {
-    font: var(--font);
-    color: var(--bg-color);
+h1, h2, h3, h4, h5 {
+    font-family: 'Edu AU VIC WA NT Guides", cursive;';
+    color: var(--segunda-cor);
 }
